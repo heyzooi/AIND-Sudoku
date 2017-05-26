@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: If a naked twin is identified, it means that all other peers cannot have the same value as the naked twins, so we can safely exclude the values from the possible values list.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Adding the 2 diagonal lines in the peers list will automatically apply constraint propagation since all the methods that uses constraint propagation will now also consider the diagonal lines as a constraint for each possible value.
 
 ### Install
 
